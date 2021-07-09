@@ -1,8 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import SideNavPage from ./SideNavPage
 
 function App() {
   return (
+    <SideNavPage/>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
